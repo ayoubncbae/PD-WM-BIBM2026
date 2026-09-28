@@ -1,4 +1,4 @@
-# PD-WM Structural Reference Implementation
+# PD-WM: LLM-Guided Multimodal World Model for Parkinson’s Severity and Personalized Management Profiling
 
 This repository provides a clean structural reference implementation of **PD-WM: LLM-Guided Multimodal World Model for Parkinson's Severity and Personalized Management Profiling**, plus a lightweight end-to-end verification mode. It covers patient matching, leakage-safe labels and narratives, multimodal bags, PSTAL, mixture-of-experts fusion, ordinal severity prediction, an action-conditioned structured energy transition, management slot prediction, controlled verbalization, evaluation, plots, and saved results.
 
@@ -6,14 +6,7 @@ This repository provides a clean structural reference implementation of **PD-WM:
 
 The default `QUICK_RUN` configuration uses lightweight interface-compatible placeholder implementations for the frozen I-JEPA and MedCPT encoders. This verifies the complete software and data flow without downloading or distributing large pretrained models. It is **not intended to reproduce manuscript performance**, and quick-run metrics from a tiny split must not be interpreted as clinical or manuscript-level results.
 
-The verification mode exercises:
-
-- dataset discovery and patient-level matching;
-- target-safe narrative construction without diagnosis, stage, UPDRS-III, or management targets;
-- MRI and explicitly missing DaT modality handling;
-- placeholder visual and text encoders;
-- PSTAL, MoE routing, ordinal severity, structured energy scoring, and slot heads;
-- joint backpropagation, inference, metrics, plots, and controlled verbalization.
+ 
 
 ## Quick start
 
@@ -94,9 +87,13 @@ outputs/
   figures/
 ```
 
-Metrics that cannot be computed on the tiny test split are saved as `NaN` and logged as undefined; no values are fabricated.
 
-## Larger experiments
+# Cite
 
-For a full study, set `QUICK_RUN = False`, expand/remove `MAX_SUBJECTS` in the cohort selection logic, point the configuration at the complete imaging collection, activate reviewed real encoders, increase `EPOCHS`, and tune model/training parameters. A larger patient-level train/validation/test design (or cross-validation) is necessary for meaningful estimates. This code is research software and does not provide medical advice.
+Please cite the following paper:
 
+## Title:
+PD-WM: LLM-Guided Multimodal World Model for Parkinson’s Severity and Personalized Management Profiling
+
+Muhammad Ayoub, Hai Zhao, and Yi Zhao
+Accepted as a Regular paper at the 2026 IEEE International Conference on Bioinformatics and Biomedicine (BIBM 2026).
