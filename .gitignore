@@ -1,0 +1,14 @@
+api_key.txt
+*.key
+.env
+cache/
+outputs/
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.ckpt
+OpenNeuro_PD_data/
+*.nii
+*.nii.gz
+
