@@ -1,0 +1,2 @@
+Place the local MedCPT model/tokenizer files in this directory, then connect their loader in pdwm/encoders.py and set MEDCPT_BACKEND="real".
+

@@ -1,0 +1,11 @@
+subject_id,severity,split
+1,0,test
+4,2,val
+2,0,train
+5,2,train
+3,0,train
+6,2,train
+14,0,val
+12,2,train
+16,0,train
+13,2,test

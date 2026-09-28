@@ -1,0 +1,14 @@
+{
+  "candidate_state_count": 3,
+  "test_subject_count": 2,
+  "test_states_covered_by_training_candidates": 1,
+  "test_states_unseen_in_training_candidates": 1,
+  "structured_state_top1_accuracy": 1.0,
+  "structured_state_top3_accuracy": 1.0,
+  "medicine_use_accuracy": 1.0,
+  "medicine_use_f1": 1.0,
+  "dose_accuracy": 0.0,
+  "dose_f1": 0.0,
+  "intensity_accuracy": 0.0,
+  "intensity_f1": 0.0
+}

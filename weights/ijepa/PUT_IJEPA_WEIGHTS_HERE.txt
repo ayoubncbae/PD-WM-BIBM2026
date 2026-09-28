@@ -1,0 +1,2 @@
+Place the intended frozen I-JEPA checkpoint in this directory, then connect its loader in pdwm/encoders.py and set IJEPA_BACKEND="real".
+

@@ -1,0 +1,67 @@
+{
+  "csv_rows": 71,
+  "csv_columns": 69,
+  "bids_subjects_with_supported_images": 10,
+  "matched_subjects_available": 10,
+  "subjects_selected": 10,
+  "selected_subject_ids": [
+    "1",
+    "4",
+    "2",
+    "5",
+    "3",
+    "6",
+    "14",
+    "12",
+    "16",
+    "13"
+  ],
+  "severity_counts": {
+    "0": 5,
+    "2": 5
+  },
+  "actual_mri_files_selected": 12,
+  "actual_dat_files_selected": 0,
+  "other_imaging_files_selected": 48,
+  "readable_mri_files_selected": 8,
+  "unreadable_or_truncated_mri_files_selected": 4,
+  "nifti_container_notice": "Supplied .nii.gz payloads are uncompressed NIfTI; loader detects this extension/container mismatch and reads them without modifying raw files.",
+  "dat_mismatch_notice": "No DaT/SPECT-labelled files exist under the supplied OpenNeuro root; CSV dat_image_count appears to describe another collection. DaT branch used explicit missing-modality bags.",
+  "clinical_columns_used_for_target_safe_text": [
+    "Sex (M/F)",
+    "Age (=last seen-D)",
+    "Symptoms started",
+    "Disease Duration (years) (today-E)",
+    "Lateral (body)",
+    "UPDRS I Nm-EDL (0-42)",
+    "UPDRS II M-EDL (0-42)",
+    "UPDRS IV (0-24)",
+    "Timed -Upper R. (number of repeats)",
+    "Timed -Upper L. (number of repeats)",
+    "Timed-walk (sec)",
+    "# of steps",
+    "FOG (0-24)",
+    "MMSE (0-30)",
+    "Halluc",
+    "Hyperkinesias",
+    "smell",
+    "RBD",
+    "Const",
+    "family",
+    "ET",
+    "Smoking 0=N 1=Y 2=cess",
+    "Diabetes",
+    "Depres"
+  ],
+  "severity_source_columns": [
+    "disease_label",
+    "Stage (I-V)",
+    "Stage (I-V).1",
+    "UPDRS III (0-126)"
+  ],
+  "management_source_columns": [
+    "target_ldopa_use",
+    "target_ldopa_dose_category",
+    "target_medication_intensity"
+  ]
+}

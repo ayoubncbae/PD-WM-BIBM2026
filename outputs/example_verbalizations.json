@@ -1,0 +1,10 @@
+[
+  {
+    "subject_id": "1",
+    "text": "Predicted severity class 0. For the predefined medicine levodopa, the structured model predicts use=1, dose=high, and management intensity=medium. This is a model output for research verification, not a clinical recommendation."
+  },
+  {
+    "subject_id": "13",
+    "text": "Predicted severity class 2. For the predefined medicine levodopa, the structured model predicts use=1, dose=high, and management intensity=medium. This is a model output for research verification, not a clinical recommendation."
+  }
+]

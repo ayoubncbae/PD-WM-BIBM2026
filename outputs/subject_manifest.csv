@@ -1,0 +1,11 @@
+subject_id,disease_label,severity,medicine,use_label,dose_label,intensity_label,management_state,management_narrative,split
+1,NPD,0,levodopa,-1,unknown,unknown,levodopa|unknown|unknown|unknown,"Ground-truth management state for output supervision: medicine=levodopa, use=unknown, dose=unknown, intensity=unknown.",test
+4,PD,2,levodopa,1,medium,medium,levodopa|used|medium|medium,"Ground-truth management state for output supervision: medicine=levodopa, use=used, dose=medium, intensity=medium.",val
+2,NPD,0,levodopa,-1,unknown,unknown,levodopa|unknown|unknown|unknown,"Ground-truth management state for output supervision: medicine=levodopa, use=unknown, dose=unknown, intensity=unknown.",train
+5,PD,2,levodopa,1,unknown,medium,levodopa|used|unknown|medium,"Ground-truth management state for output supervision: medicine=levodopa, use=used, dose=unknown, intensity=medium.",train
+3,NPD,0,levodopa,-1,unknown,unknown,levodopa|unknown|unknown|unknown,"Ground-truth management state for output supervision: medicine=levodopa, use=unknown, dose=unknown, intensity=unknown.",train
+6,PD,2,levodopa,1,high,high,levodopa|used|high|high,"Ground-truth management state for output supervision: medicine=levodopa, use=used, dose=high, intensity=high.",train
+14,NPD,0,levodopa,-1,unknown,unknown,levodopa|unknown|unknown|unknown,"Ground-truth management state for output supervision: medicine=levodopa, use=unknown, dose=unknown, intensity=unknown.",val
+12,PD,2,levodopa,1,high,high,levodopa|used|high|high,"Ground-truth management state for output supervision: medicine=levodopa, use=used, dose=high, intensity=high.",train
+16,NPD,0,levodopa,-1,unknown,unknown,levodopa|unknown|unknown|unknown,"Ground-truth management state for output supervision: medicine=levodopa, use=unknown, dose=unknown, intensity=unknown.",train
+13,PD,2,levodopa,1,medium,high,levodopa|used|medium|high,"Ground-truth management state for output supervision: medicine=levodopa, use=used, dose=medium, intensity=high.",test
